@@ -4,6 +4,8 @@
 }
 
 body {
+  height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,12 +17,14 @@ body {
   overflow: ;
 }
 
-
+table, th, td {
+  border:1px solid black;
+}
 
 
 /* Footer */
 footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
   height: 60px;
